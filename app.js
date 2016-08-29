@@ -25,7 +25,7 @@ app.use(function *(next) {
 	var sha = sha1(str)
 
 	if(sha === signature) {
-		this.body = ecostr + ''
+		this.body = echostr + ''
 	} else {
 		this.body = 'wrong'
 	}
