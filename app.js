@@ -32,5 +32,5 @@ app.use(function *(next) {
 
 })
 
-app.listen(1234)
+app.listen(80)
 console.log("listen:1234")
