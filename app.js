@@ -31,3 +31,6 @@ app.use(function *(next) {
 	}
 
 })
+
+app.listen(1234)
+console.log("listen:1234")
