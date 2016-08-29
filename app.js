@@ -16,7 +16,7 @@ app.use(function *(next) {
 	console.log(this.query)
 
 	var token = config.wechat.token
-	var signature = this.query.token
+	var signature = this.query.signature
 	var nonce = this.query.nonce
 	var timestamp = this.query.timestamp
 	var echostr = this.query.echostr
